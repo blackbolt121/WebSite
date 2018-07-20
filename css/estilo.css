@@ -1,0 +1,187 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+}
+
+
+/*Codigo del menu*/
+
+header{
+  background-color: #2aa9d2;
+}
+div.logo::after{
+  content:'';
+  display: block;
+  clear:both;
+}
+div.logo{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+.logo img{
+  width: 90px;
+  padding-left: 30px;
+}
+
+div.menu:after{
+  content:'';
+  display: block;
+  clear:both;
+}
+div.menu{
+  padding-top: 20px;
+  padding-right: 90px;
+  float: right;
+  padding-left: 90px;
+  padding-bottom: 20px;
+
+}
+header nav ul{
+  list-style: none;
+}
+header nav ul li{
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
+header nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 20px 30px;
+}
+header nav ul li:hover{
+  background-color: #74dbef;
+}
+header nav ul li:hover a{
+  color:black;
+}
+
+
+
+/*Parte del primer contenido*/
+
+
+
+div.intro:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+div.intro{
+  padding-top: 4em;
+  padding-right: 8em;
+  float:right;
+  width:30%;
+  line-height: 2em;
+  text-align: justify;
+  margin: 0 auto;
+
+}
+div.intro h2{
+  text-align: center;
+}
+.boton{
+  background-color: #1874c3;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 1em;
+}
+.boton:hover{
+  background-color: #2162A2;
+}
+div.intro a{
+  padding-top:10px;
+}
+div.intro h1{
+  text-align: justify;
+}
+div.intro::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+div.doce:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+div.doce img{
+  padding-top: 6em;
+  width:40%;
+}
+div.doce{
+  width:100%;
+  background-color: white;
+  line-height: 300px;
+}
+
+/*Segundo parrafo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+footer{
+  background-color: #2aa9d2;
+  line-height: auto;
+
+}
+footer nav{
+  padding-top: 20px;
+  margin-right: 20px;
+}
+footer nav::after{
+    content:'';
+    display:block;
+    clear:both;
+  }
+}
+footer nav ul::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+footer nav ul{
+  list-style: none;
+  float: right;
+}
+footer nav ul li{
+  display: inline-block;
+  padding: 5px;
+}
+footer nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+footer nav ul li:hover a{
+  color:black;
+}
+div.Texto{
+  font-size: 20px;
+  color:white;
+  width: 500px;
+  margin: 0 auto;
+}
